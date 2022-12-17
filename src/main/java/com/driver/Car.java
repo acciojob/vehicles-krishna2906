@@ -29,8 +29,8 @@ public class Car extends Vehicle {
     }
 
     public void changeSpeed(int newSpeed, int newDirection){
-        this.newSpeed = 20;
-        this.newDirection = 3;
+        newSpeed = 20;
+        newDirection = 3;
 
         System.out.println("changeSpeed method called - The speed is changed to: " + newSpeed + ", and the direction is changed to: " + newDirection + " degrees");
     }
